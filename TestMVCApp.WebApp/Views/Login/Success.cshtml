@@ -1,0 +1,20 @@
+﻿@model TestMVCApp.WebApp.Models.UserMST
+
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>View</h2>
+
+<div>
+    <h4>UserMST</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <h4>Welcome</h4>
+     
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
